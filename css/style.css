@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Donegal+One&family=Kaisei+Tokumin:wght@400;500;700;800&family=Libre+Barcode+39+Text&family=MedievalSharp&family=Nothing+You+Could+Do&family=Nova+Cut&family=Phudu:wght@300&family=Piazzolla:wght@100;200;300;400;500&family=Prata&family=Red+Rose:wght@300;600&family=Roboto+Serif:ital,wght@0,100;0,200;0,400;1,100&family=Sansita+Swashed:wght@300&family=Strait&family=Unbounded:wght@200;300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../imagens/img_backgorund.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+}
+
+header{
+    background-color: #12093e;
+    padding: 18px 0;
+    border-bottom: 1px solid #fff;
+}
+
+.logo img{
+    width: 160px;
+}
+
+.menu{
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.menu a:hover{
+    color: rgb(68, 68, 142);
+}
+
+/* HOME */
+
+#banners {
+    margin-top: 40px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 50px;
+    font-family: Phudu;
+}
+
+#caixa .container{
+    background-color: #ffffff05; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    border: solid 1px;
+    border-radius: 30px;
+    border: #666;
+    transition: all .9s linear;
+
+}
+#caixa .container:hover{
+    background-color: rgba(255, 255, 255, 0.575);
+    color: #000;
+}
+#caixa .container div p{
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+    font-family: 'Red Rose';
+}
+#caixa .container div a{
+    text-decoration: none;
+    color: #d16900;
+}
+#fotos img{
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+/* NEWS */
+
+#news .showbr{
+    background-image: url(../imagens/background_azul.png);
+    min-height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+} 
+
+#news h2{
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+#news h3{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Red Rose';
+    font-weight: 600;
+}
+
+#news .colum{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+
+}
+
+#news h4{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: 'Red Rose';
+    font-weight: 600;
+}
+
+#news p{
+    margin-bottom: 20px;
+    font-family: Kaisei Tokumin;
+    font-weight: 800;
+}
+
+#news .mapa_img{
+    text-align: center;
+}
+#news .showbr img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 800px;
+    max-height: 500px;
+    border-radius: 5%;
+}
+#news .sn_tv{
+    background-image: url(../imagens/img_roxo.png);
+    min-height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+
+#news a{
+    text-decoration: none;
+    color: #f8a558;
+}
+
+#news .sn_tracks{
+    text-align: center;
+}
+
+#news .sn_tracks img{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    max-width: 1000px;
+    max-height: 600px;
+    border-radius: 5%;
+}
+
+#news .md_lne{
+    background-image: url(../imagens/img_midnight.png);
+    min-height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+} 
+
+#news .clipe{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 50px;
+    width: 100px;
+    margin-bottom: 0px;
+}
+
+/* ERAS */
+/* 
+#ers{
+    background-image: url(../imagens/gif_style_Taylor\ Swift.gif);
+} */
+
+#eras .ab_01 {
+    background-color: #228b3d8a;
+    min-height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#eras .ab_01:hover {
+    background-color: #042408;
+}
+
+#eras h2{
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+#eras h3{
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    font-family: Kaisei Tokumin;
+    font-weight: 800;
+    padding: 20px;
+    
+    
+}
+#eras img{
+    max-width: 400px;
+    max-height: 400px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 70px;
+}
+
+#eras p{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-right: 20px;
+    font-family: Piazzolla;
+    font-weight: 400;
+}
+
+#eras .songs h4{
+    color: #fff;
+    font-size: 30px;
+    font-family: Kaisei Tokumin;
+    font-weight: 800;
+    padding: 20px;
+
+}
+
+#eras .songs {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+
+#eras .ab_02 {
+    background-color: #ebb84b98;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#eras .ab_02:hover {
+    background-color: #ac7e00;
+}
+
+#eras .ab_03 {
+    background-color: #c146cc86;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#eras .ab_03:hover:hover {
+    background-color: #2c0538;
+}
+#eras .ab_04 {
+    background-color: #ad202083;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#eras .ab_04:hover {
+    background-color: #a10000;
+}
+
+#eras .ab_05 {
+    background-color: #85bfc488;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#eras .ab_05:hover {
+    background-color: #5890aa;
+}
+
+#eras .ab_06 {
+    background-color: #0000007e;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#eras .ab_06:hover {
+    background-color: #000000;
+}
+
+#eras .ab_07 {
+    background-color: #ee88b379;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#eras .ab_07:hover {
+    background-color: #ec69b1;
+}
+
+#eras .ab_08 {
+    background-color: #92929279;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#eras .ab_08:hover {
+    background-color: #535353;
+}
+
+#eras .ab_09 {
+    background-color: #a559128c;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#eras .ab_09:hover {
+    background-color: #a7480a;
+}
+
+#eras .ab_10 {
+    background-color: #2d2c688e;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#eras .ab_10:hover {
+    background-color:#12093e;
+}
+
+#eras .reg_01 {
+    background-color: #ca901483;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#eras .reg_01:hover {
+    background-color: #af8938;
+}
+
+#eras .reg_02 {
+    background-color: #6e0c0c80;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#eras .reg_02:hover {
+    background-color: #500707;
+}
+
+#eras .reg_03 {
+    background-color: #8f3f8477;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*MERCH*/
+
+.merch{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.slide-container{
+    /* max-width: 1330px;
+    max-height: 415px; */
+    width: 1330px;
+    background-color: transparent;
+    border: #fff 1px solid;
+    padding: 40px 0;
+    max-height: 100%;
+
+}
+
+.slide-container:hover{
+    background-color: #12093e;
+}
+.slide-content{
+    margin: 0 40px;
+    float: left;
+}
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff36;
+    border-radius: 25px 25px 0 25px;
+    transition: all .5s linear;
+}
+
+.overlay:hover{
+    background-color: #fff;
+}
+.card{
+    width: 250px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: #fff 1px solid;
+}
+
+.card:hover{
+    background-color: #2d5b69;
+}
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: transparent;
+    padding: 3px;
+    border-radius: 10%;
+}
+
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 10%;
+}
+
+.name{
+    font-size: 18px;
+    color: #fff;
+}
+
+.card-content p{
+    color: #fff;
+    text-align: center;
+}
+
+.button{
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 16px;
+    background-color: transparent;
+    border: #fff 1px solid;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all .3s ease;
+
+}
+
+.button:hover{
+    background-color: #000000;
+}
+
+/*AWARDS*/
+.sub-titulo{
+    font-size: 20px;
+    color: #fff;
+}
+.ah2 p{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+table{
+     width: 100%;
+     margin: 0 auto;
+     border-collapse: collapse;
+     margin-bottom: 40px;
+}
+
+table td{
+    text-align: center;
+    border-width: 1px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #00000041;
+    padding: 5px;
+
+}
+table thead{
+    background-color: #000000;
+    color: #b18040;
+    font-size: 40px;
+    
+
+}
+
+table .premiacao{
+    color: #b18040;
+    font-size: 30px;
+    background-color: #01032781;
+}
+
+/*GALERY*/
+
+.titulo-galery p{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+#fotos .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+#fotos .container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s linear;
+    margin-right: 20px;
+}
+
+#fotos .container img:hover {
+    transform: scale(1.20);
+}
+
+
+
+
+#rodape {
+    background-color: #12093e;
+    padding: 40px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+    font-family: Unbounded;
+}
+#rodape a{
+    color: #aa742e;
+    text-decoration: none;
+}
+#rodape a:hover{
+    color: #367a86;
+}
+
